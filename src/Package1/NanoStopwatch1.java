@@ -68,8 +68,8 @@ public class NanoStopwatch1 {
 				btnStart.setForeground(Color.blue);
 			}
 		});
-		JLabel lblZombie = new JLabel("New label");
-		lblZombie.setIcon(new ImageIcon("/Users/rohith1/Downloads/scary1.png"));
+		JLabel lblZombie = new JLabel("");
+		lblZombie.setIcon(new ImageIcon("/Users/rohith1/Documents/workspace/TestProject-1/scary1.jpg"));
 		lblZombie.setBounds(227, 22, 674, 594);
 		frmNano.getContentPane().add(lblZombie);
 		lblZombie.setVisible(false);
@@ -117,7 +117,7 @@ public class NanoStopwatch1 {
 	
 	private static void PlaySound(){
 		// open the sound file as a Java input stream
-		String gongFile = "sound2.wav";
+		String gongFile = "sound1.wav";
 		//JOptionPane.showMessageDialog(null, gongFile);
 		
 		InputStream in = null;
